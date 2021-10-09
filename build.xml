@@ -1,0 +1,7 @@
+<project name="ivos" basedir="." default="main">
+
+<target name="main">
+	<echo message="THIS IS ANT BUILD.XML SCRIPT"/>
+</target>
+
+</project>
