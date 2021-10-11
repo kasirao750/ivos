@@ -29,8 +29,12 @@ pipeline {
 				echo "stage 3"
 			}
 		}
-		
+	}
 	
 	
+	post {
+        always {
+            cleanWs()
+        }
 	}
 }
