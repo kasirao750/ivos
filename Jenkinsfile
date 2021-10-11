@@ -7,13 +7,13 @@ pipeline {
 	
 	
 	stages {
-	/*	
+		
 		stage('checkout') {
 			steps {
 				git branch: 'main', changelog: false, credentialsId: 'gitcred', poll: false, url: 'https://github.com/kasirao750/ivos.git'
 			}
 		}
-	*/	
+		
 		
 		stage('compile') {
 			steps {
