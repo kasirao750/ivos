@@ -18,7 +18,7 @@ pipeline {
 		stage('compile') {
 			steps {
 				withAnt(installation: 'ant_1.10.11') {
-					ant -f build.xml main
+					sh "ant main"
 				}
 			}
 		}
